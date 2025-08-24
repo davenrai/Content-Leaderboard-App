@@ -4,6 +4,8 @@ This full-stack application consists of a **backend (FastAPI, PostgreSQL)** and 
 Its goal is to display and interact with performance data for content items.
 
 I have combined the frontend and backend READMEs into this single document, though you can still view them individually in their respective files if needed.
+<img width="1730" height="789" alt="image" src="https://github.com/user-attachments/assets/9f42c82a-a9f5-44f3-b566-b503f1dca113" />
+
 
 # Core Features
 
