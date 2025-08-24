@@ -105,6 +105,13 @@ content-leaderboard
     # You made need to use -U to specify a user
   ```
 
+**Run the API from app folder (Creates tables)**
+
+- ```
+  cd app
+  uvicorn main:app --reload
+  ```
+
 **Seed Data to DB via PSQL**
 
 - ```
@@ -112,13 +119,6 @@ content-leaderboard
   # Alternatively, this can be done in PgAdmin.
 
   psql -U postgres -d content_leaderboard < seed_data.sql
-  ```
-
-**Run the API from app folder**
-
-- ```
-  cd app
-  uvicorn main:app --reload
   ```
 
 API is accessible at **http://127.0.0.1:8000/**
