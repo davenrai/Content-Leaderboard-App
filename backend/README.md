@@ -12,6 +12,10 @@ This backend implements the server side for the take home challenge: Content Lea
 
 ### 1. Configure Environment (Mac OS)
 
+```
+cd backend
+```
+
 **Create a `.env` file with**
 
 - ```

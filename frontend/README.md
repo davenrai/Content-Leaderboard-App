@@ -13,6 +13,13 @@ This application implements the frontend for the take home challenge: Content Le
 
 ### 1.) Configure Environment (Mac OS)
 
+```
+cd frontend
+# You can also use the following (if you have Node Version Manager):
+# nvm install 22.14.0
+# nvm use 22.14.0
+```
+
 **Create a `.env` file at root with**
 
 ```

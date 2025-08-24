@@ -70,11 +70,15 @@ content-leaderboard
 ## Requirements
 
 - **Backend**: Python 3.13 (see [backend/README.md](backend/README.md))
-- **Frontend**: Node.js 22+ and npm (see [frontend/README.md](frontend/README.md))
+- **Frontend**: Node.js 22+ (see [frontend/README.md](frontend/README.md))
 
 ## Quick Start (Backend)
 
 ### 1. Configure Environment (Mac OS)
+
+```
+cd backend
+```
 
 **Create a `.env` file with**
 
@@ -128,6 +132,13 @@ Open **http://127.0.0.1:8000/docs** for Interactive Swagger docs.
 ## Quick Start (Frontend)
 
 ### 1. Configure Environment (Mac OS)
+
+```
+cd frontend
+# You can also use the following (if you have Node Version Manager):
+# nvm install 22.14.0
+# nvm use 22.14.0
+```
 
 **Create a `.env` file at root with**
 
