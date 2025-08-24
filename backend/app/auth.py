@@ -1,12 +1,9 @@
 import os
 from datetime import timedelta, datetime, timezone
 from typing import Optional, Dict, Any, Annotated
-
-import jwt
 from dotenv import load_dotenv
 from fastapi import Depends, Security, HTTPException, status
 from fastapi.security import OAuth2PasswordBearer
-from jwt import InvalidTokenError
 from sqlalchemy.orm import Session
 
 import crud, models
